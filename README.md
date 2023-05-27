@@ -42,8 +42,8 @@ After you have successfully started the application, you should see a form where
 
 **DELETE:** Deletes the first user from the MockAPI.
 
-##Notes
+## Notes
 This application uses the MockAPI for the API calls. The API URL is https://6470f94a3de51400f72530fe.mockapi.io/Example.
 
-###The application is also set up to use the Comment Anchors extension in VS Code to mark comments. If you have the extension, you will see the marker colors. If you don't, you can still see the comments and the code will run fine, but you will see the anchor tags in the comments.
+### The application is also set up to use the Comment Anchors extension in VS Code to mark comments. If you have the extension, you will see the marker colors. If you don't, you can still see the comments and the code will run fine, but you will see the anchor tags in the comments.
 
