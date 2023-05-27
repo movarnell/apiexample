@@ -3,13 +3,17 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 import Entry from './Entry';
 
-//REVIEW - This is written with the Comment Anchors extension in vsCode marking the comments. If you download the extension you will see the marker colors. If you don't have the extension, you can still see the comments and the code will run fine you will just see the anchor tags in the comments.
+//REVIEW - This is written with the Comment Anchors extension in vsCode marking the comments. 
+//If you download the extension you will see the marker colors. If you don't have the extension, 
+//you can still see the comments and the code will run fine you will just see the anchor tags in the comments.
 
 function App() {
 //NOTE - We are going to hold the State for Users In App.js
 const [users, setUsers] = useState([]);
 
-//NOTE: writing a basic async and await function set to show GET, PUT, POST, DELETE methods using MockAPI at : https://6470f94a3de51400f72530fe.mockapi.io/Example for the URL with try catch blocks to handle errors and comments after each method to explain what is happening
+//NOTE: writing a basic async and await function set to show GET, PUT, POST, DELETE methods 
+//using MockAPI at : https://6470f94a3de51400f72530fe.mockapi.io/Example for the URL with 
+//try catch blocks to handle errors and comments after each method to explain what is happening.
 const URL= "https://6470f94a3de51400f72530fe.mockapi.io/Example"
 
 //REVIEW - We will use a useEffect hook to call the GET method when the page loads, We will display them below the entry form. 
