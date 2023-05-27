@@ -141,6 +141,7 @@ deleteMethod(user.id)
           
             <h1 className="display-5">Users</h1>
             <h2 className="lead fw-bold">These users are currently stored in Mock API</h2>
+            {/* REVIEW - This is my go-to way of mapping through an array of objects and displaying them on the page. */}
             {users.map((user) => {
               return (
                 <div className='col-3'>
