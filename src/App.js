@@ -14,14 +14,14 @@ const [users, setUsers] = useState([]);
 //NOTE: writing a basic async and await function set to show GET, PUT, POST, DELETE methods 
 //using MockAPI at : https://6470f94a3de51400f72530fe.mockapi.io/Example for the URL with 
 //try catch blocks to handle errors and comments after each method to explain what is happening.
-const URL= "https://6470f94a3de51400f72530fe.mockapi.io/Example"
+const URL = "https://6549ace0e182221f8d51c442.mockapi.io/Example";
 
 //REVIEW - We will use a useEffect hook to call the GET method when the page loads, We will display them below the entry form. 
 useEffect(() => {
   getMethod()
 }, []);
 
-
+// SECTION - Below this is the GET method, PUT method, POST method, and DELETE method.
 //NOTE: GET method which uses async and await to get the data from the API and set the state to the data it gets back.
 // this is the method we will use to get the users from the database and display them on the page.
 const getMethod = async () => {
@@ -98,6 +98,8 @@ const deleteMethod = async (id) => {
     console.log(error)
   }
 }
+//!SECTION
+
 
 // NOTE: calling the functions works just like any other function, you just pass the function name and the parameters it needs.
 // you can even pass them down as props to other components and call them from there. You can pass parameters to them the same
